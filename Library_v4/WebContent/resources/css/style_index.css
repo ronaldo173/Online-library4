@@ -1,0 +1,102 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    background-color: #eaeaea;
+    margin: 100px;
+}
+
+.main {
+    background-color: #FFF;
+    width: 600px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.text {
+
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.login_form {
+    padding-left: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.login_div {
+    width: 400px;
+    border: 1px solid #eaeaea;
+    margin: 0 auto;
+    padding: 10px;
+    height: 100px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.login_div p {
+    text-align: left;
+
+}
+
+.footer {
+    color: #cccccc;
+    text-align: center;
+    margin: 50px;
+}
+
+.content {
+    height: 150px;
+
+}
+
+.error {
+    color: #ff0000;
+    font-style: italic;
+    font-size: 12px;
+
+}
+
+.log_button {
+    background: #d3f708;
+    background-image: -webkit-linear-gradient(top, #d3f708, #1530ab);
+    background-image: -moz-linear-gradient(top, #d3f708, #1530ab);
+    background-image: -ms-linear-gradient(top, #d3f708, #1530ab);
+    background-image: -o-linear-gradient(top, #d3f708, #1530ab);
+    background-image: linear-gradient(to bottom, #d3f708, #1530ab);
+    border-radius: 28px;
+    -webkit-box-shadow: 6px 6px 30px #ff0015;
+    -moz-box-shadow: 6px 6px 30px #ff0015;
+    box-shadow: 6px 6px 30px #ff0015;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 19px 10px 20px;
+    text-decoration: none;
+}
+
+.log_button:hover {
+    background: #00ff55;
+    background-image: -webkit-linear-gradient(top, #00ff55, #ff0303);
+    background-image: -moz-linear-gradient(top, #00ff55, #ff0303);
+    background-image: -ms-linear-gradient(top, #00ff55, #ff0303);
+    background-image: -o-linear-gradient(top, #00ff55, #ff0303);
+    background-image: linear-gradient(to bottom, #00ff55, #ff0303);
+    text-decoration: none;
+}
+
+.log_button:active {
+    position: relative;
+    top: 1px;
+}

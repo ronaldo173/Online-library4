@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14633096595400" configfile="/Library_v4/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="index.xhtml" id="pf14633096830161" referenceLink="//@navigationRule.1/@navigationCase.0/@toViewId|" outlinks="pf14633096830162" inlinks="pf14633096830163" path="/index.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="pages/books.xhtml" id="pf14633096830164" referenceLink="//@navigationRule.1/@navigationCase.1/@toViewId|" outlinks="pf14633096830163 pf14633096830165" inlinks="pf14633096830162 pf14633096830165" path="/pages/books.xhtml"/>
+  <links id="pf14633096830162" target="pf14633096830164" source="pf14633096830161" outcome="books" redirect="true"/>
+  <links id="pf14633096830163" target="pf14633096830161" source="pf14633096830164" outcome="exit" redirect="true"/>
+  <links id="pf14633096830165" target="pf14633096830164" source="pf14633096830164" outcome="books" redirect="true"/>
+</pageflow:Pageflow>
